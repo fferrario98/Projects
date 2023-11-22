@@ -15,7 +15,7 @@ def main():
     if len(series) < 4:
         series.extend([float(input('what is the height of the tiles in cm?'))])
     if len(series) < 5:
-        series.extend([float(input('How much does each tile cost in Euro/cm^2?'))])
+        series.extend([float(input('How much does each tile cost in Euro/tile?'))])
     for i in range(len(series)):  # Convert the numbers to strings. The idea is that it puts the comma-less series with floats,
                                   # into a string with commas
         series[i] = str(series[i])
