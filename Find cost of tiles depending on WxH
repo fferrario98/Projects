@@ -1,3 +1,5 @@
+#created on 22/11/2023 - by fferrario98
+
 def tiles(series):
     total_cost = ((series[0]*series[1])/(series[2]*series[3]))*series[4]
     return total_cost
